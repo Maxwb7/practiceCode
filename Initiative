@@ -1,0 +1,17 @@
+#initiative program
+
+import random
+
+class Pc():
+    def Pc (self,playerName,characterName,iniMod,init):
+        self.playerName = input("Player name here")
+        self.characterName = input("Character name here")
+        self.iniMod = input("dexterity +  any feats")
+        self.init = self.iniMod + randint(1,20)
+
+Pc1 = Pc()
+Pc2 = Pc()
+Pc3 = Pc()
+Pc4 = Pc()
+
+print(Pc1.init,Pc2.init,Pc3.init,Pc4.init)
