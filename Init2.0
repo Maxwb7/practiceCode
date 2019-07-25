@@ -1,0 +1,19 @@
+class Combatant:
+    def __init__(self,name,playerName,iniMod):
+        self.name = name
+        self.playerName = playerName
+        self.iniMod = iniMod
+
+    
+
+
+Player1 = Combatant(input(" Character name "),input(" playerName "), input("initiative score"));
+
+#Player2 = Combatant(input(" Character name "),input(" playerName"), input("initiative score"));
+#
+#Player3 = Combatant(input(" Character name"),input(" playerName"), input("initiative score"));
+#
+#Player4 = Combatant(input(" Character name"),input(" playerName"), input("initiative score"));
+
+print(Player1.name, Player1.playerName, int(Player1.iniMod) + random.randint(1,20))
+
